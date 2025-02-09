@@ -5,6 +5,7 @@ import swaggerRouter from "./routes/swagger";
 
 const app = express();
 
+app.use(express.json());
 app.use("/cache", cacheRouter);
 app.use("/api-docs", swaggerRouter);
 
