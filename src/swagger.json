@@ -1,4 +1,5 @@
 {
+  "openapi": "3.1.0",
   "info": {
     "title": "Cache API",
     "version": "1.0.0",
@@ -61,7 +62,7 @@
                 "type": "object",
                 "properties": {
                   "key": { "type": "string" },
-                  "value": { "type": "string" }
+                  "value": { "type": "object" }
                 },
                 "required": ["key", "value"]
               }

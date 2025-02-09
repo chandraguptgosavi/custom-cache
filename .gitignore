@@ -14,5 +14,3 @@
 
 .env
 node_modules
-_Dockerfile
-_docker-compose.yml
