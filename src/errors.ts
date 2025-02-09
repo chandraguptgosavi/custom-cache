@@ -1,0 +1,1 @@
+export const CACHE_LIMIT_REACHED = "Cache limit reached! You cannot add more items.";
