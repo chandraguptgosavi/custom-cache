@@ -60,6 +60,9 @@ class RedisCache implements CacheStore {
   public async delete(key: string): Promise<number> {
     try {
       const deletedCount = await this.client.del(key);
+      if (deletedCount > 0) {
+        RedisCache.itemsCount--;
+      }
       return deletedCount;
     } catch (err) {
       console.error(`Error deleting key "${key}":`, err);
