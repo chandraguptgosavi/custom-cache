@@ -3,7 +3,7 @@
 A caching API built with **Node.js**, **TypeScript**, and **Redis** under the hood.
 
 ## 🚀 Live Demo
-Access the API documentation here: [Swagger Docs](https://custom-cache.onrender.com/api-docs/)
+Access the API documentation here (takes time to load due to free tier usage): [Swagger Docs](https://custom-cache.onrender.com/api-docs/)
 
 ---
 
